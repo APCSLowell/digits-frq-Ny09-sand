@@ -6,7 +6,8 @@ public class Digits
 	private ArrayList<Integer> digitList;
 
 	public Digits(int num)
-	{ /* to be implemented in part (a) */ 
+	{ 
+	    digitList=new ArrayList<>();
 	    if ( num == 0 ) {digitList.add(num); } 
 		else{ while(num!=0){
 			digitList.add(0,num%10);
