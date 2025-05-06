@@ -20,7 +20,7 @@ public class Digits
 	{ /* to be implemented in part (b) */
 		boolean sure = false; 
 		for ( int i = 1; i< digitList.size(); i++) {
-			if( digitList.get(i)<digitList.get(i-1){
+			if( digitList.get(i)<digitList.get(i-1)){
 				sure = false; 
 			} 
 		} 
